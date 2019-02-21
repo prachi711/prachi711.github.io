@@ -52,7 +52,7 @@ body{
   font-family: 'Dosis-Medium';
   font-size: 1em;
   text-decoration: none;
-  background:#3598DB;
+  background:#0e3808;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -99,7 +99,7 @@ span.menu {
 	font-family: 'Dosis-Medium';
 }
 .top-menu ul li a:hover{
-	color:#3598DB;
+	color:rgb(240, 16, 16);
 }
 .top-menu ul li:nth-child(3) {
   margin-right: 13em;
@@ -126,24 +126,24 @@ span.menu {
 	line-height:1.8em;
 	margin-top:2em;
 }
-.banner-info a{
+.banner-info a{ /*know more about me banner*/
 	color: #fff;
   padding: 0.6em 3em;
   font-size: 1.1em;
   display: inline-block;
   margin-top: 2.5em;
-  border: 2px solid #3598db;
+  border: 2px solid #f7eff4;
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
-  background: #3598db;
+  background: #0e3808;
 }
 .banner-info a:hover{
 	text-decoration:none;
 	color:#fff;
-	background:transparent;
+	background: black;
 	border:2px solid #fff;
 }
 label{
@@ -171,7 +171,7 @@ label{
   float: left;
   width: 23%;
 }
-.icon {
+.icon { /*circles of project section*/
  width: 100px;
   height: 100px;
   display: inline-block;
@@ -183,10 +183,10 @@ label{
   margin-bottom: 1.5em;
   padding: 32px 0px;
   background:#fff;
-  border:2px solid #3598db;
+  border:2px solid #0e3808;
 }
 .glyphicon-phone:before, .glyphicon-thumbs-up:before, .glyphicon-picture:before,.glyphicon-user:before, .glyphicon-education:before, .glyphicon-book:before, .glyphicon-briefcase:before, .glyphicon-gift:before{
-  color:#9F9F9F;
+  color:rgb(131, 11, 11);
   font-size: 35px;
 }
 .icon-info {
@@ -204,7 +204,7 @@ label{
 .icon-info p {
   font-size: 1em;
   line-height: 1.8em;
-  color: #999;
+  color: rgb(131, 11, 11);
   margin-top:0.7em;
 }
 .service-grids{
@@ -218,7 +218,7 @@ label{
 	padding:2em 0
 }
 .about-right h3,.service h3,.gallery h3,.blog h3,.contact h3, .skill h3, .experience h3{
-	color:#3598db;
+	color:#0e3808;
 	font-size:2.5em;
 	font-family: 'Dosis-bold';
 	text-align:center;
@@ -235,7 +235,7 @@ label{
 	color:#3E3E3E;
 }
 .about-right p{
-	color:#999;
+	color:rgb(131, 11, 11);
 	font-size:1em;
 	line-height:1.8em;
 	margin-top:0.5em;
@@ -322,8 +322,8 @@ img.img-responsive.glry-img {
 	left: 40%;
 	transform: translateX(-50%)
 }
-.b-wrapper:hover {
-  background: rgba(185, 207, 237, 0.85);
+.b-wrapper:hover { /*Hobbies hover*/
+  background: rgba(237, 185, 188, 0.85);
   transition: 0.5s all;
   -webkit-transition: 0.5s all;
   -o-transition: 0.5s all;
@@ -346,7 +346,7 @@ img.img-responsive.glry-img {
 	margin-top:2.5em;
 }
 .blog-grid h4 a {
-  color: #3598db;
+  color: #0e3808;
   font-size: 1.3em;
   text-decoration: none;
   display: inline-block;
@@ -354,7 +354,7 @@ img.img-responsive.glry-img {
   margin-top:0.7em;
 }
 .blog-grid p{
-	color:#999;
+	color:rgb(131, 11, 11);
 	line-height:1.8em;
 	font-size:1em;
 	margin-top:1em;
@@ -366,7 +366,7 @@ img.img-responsive.glry-img {
 	   display: block;
 }
 a.blogs{
-  color: #3598db;
+  color: rgb(131, 11, 11);
   font-size: 1em;
   margin-top: 1.5em;
   display: inline-block;
@@ -398,11 +398,11 @@ a.blogs:hover{
 .touch-left form  input[type="text"] {
   width: 48%;
   margin: 7px auto;
-  color: #999;
+  color: rgb(131, 11, 11)
   background: none;
   padding: 10px 10px;
   outline: none;
-  border: 1px solid #999;
+  border: 1px solid rgb(131,11,11);
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -412,13 +412,13 @@ a.blogs:hover{
 .touch-left form textarea {
   width: 100%;
   margin: 2em 0 0 0;
-  color: #999;
+  color: rgb(228, 20, 20);
   resize: none;
   background: none;
   height: 150px;
   padding: 15px;
   outline: none;
-  border: 1px solid #999;
+  border: 1px solid rgb(194, 15, 15);
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -437,8 +437,8 @@ a.blogs:hover{
   -moz-border-radius: 5px;
   -o-border-radius: 5px;
   -ms-border-radius: 5px;
-  border: 2px solid #3598db;
-  background: #3598db;
+  border: 2px solid #0e3808;
+  background: #0e3808;
   transition:0.5s all;
 	-webkit-transition:0.5s all;
 	-moz-transition:0.5s all;
@@ -446,9 +446,9 @@ a.blogs:hover{
 	-ms-transition:0.5s all;
 }
 .touch-left form input[type=submit]:hover{
-	border: 2px solid #3598db;
+	border: 2px solid #b41414;
 	background: transparent;
-	color:#3598db;
+	color:#0e3808;
 }
 .touch-right-top:nth-child(1) {
   margin-top: 0;
@@ -456,10 +456,10 @@ a.blogs:hover{
 .touch-right-top {
   text-align: center;
   margin-top: 8px;
-    color: #999;
+    color: rgb(131, 11, 11);
 }
 .touch-right-top p a{
-	color:#999;
+	color:rgb(131, 11, 11);
 }
 .touch-right-top span.add {
   background-position: 0px 0px;
@@ -480,7 +480,7 @@ a.blogs:hover{
   margin: 0 auto;
 }
 .touch-right-top h4 {
-  color: #999;
+  color: rgb(238, 14, 14);
   font-size: 12px;
   letter-spacing: 1px;
   margin: 0px;
@@ -548,7 +548,7 @@ padding:2em 0 0.5em 0;
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
-  background-color:  #3598db ; /* Set a background color */
+  background-color:  #0e3808 ; /* Set a background color */
   color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 15px; /* Some padding */

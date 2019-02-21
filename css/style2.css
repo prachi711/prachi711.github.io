@@ -1,9 +1,9 @@
 .btn-primary{
-	background:#357ebd;
+	background:#0e3808;
 }
 
 .btn-primary:hover{
-	background:rgb(53, 104, 219);
+	background:#0e3808;
 }
 
 #about, #gallery{
@@ -29,7 +29,7 @@
 }
 #findMe{
 	text-align:center;
-	color:#999;
+	color: rgb(131,11,11);
 	line-height: 1.8em;
 	margin-top: 1em;
 }
@@ -59,7 +59,7 @@
 .experience-left {
     float: left;
     width: 30%;
-    background: #3598db;
+    background: #0e3808;
     text-align: center;
     padding: 4em 0;
     -webkit-transition: .5s all;
@@ -71,7 +71,7 @@
 .experience-right {
     float: right;
     width: 70%;
-    border: 1px solid #3598db;
+    border: 1px solid #0e3808;
     border-left: none;
     padding: 2em;
     margin: 0.8em 0;
@@ -105,7 +105,7 @@
 }
 .experience-right h4 {
     font-size: 1.6em;
-    color: #3598db;
+    color: #0e3808;
     margin-bottom: 0.5em;
     letter-spacing: 1px;
 }
@@ -117,7 +117,7 @@
 }
 .experience-grids.experience-grids-btm .experience-right {
     border-right: 0;
-    border-left: 1px solid #3598db;
+    border-left: 1px solid #0e3808;
 }
 .experience-grids:hover .experience-left h6 {
 	-webkit-transform: scale(1.3);
@@ -208,7 +208,7 @@
 .experience-right {
     width: 100%; 
     float: none;
-    border: 1px solid #3598db;
+    border: 1px solid #0e3808;
     margin: 0;
 }
 .experience-left {
@@ -220,7 +220,7 @@
     float: none;
 }
 .experience-grids.experience-grids-btm .experience-right { 
-    border: 1px solid #3598db;
+    border: 1px solid #0e3808;
 }
 
 }
@@ -275,8 +275,8 @@ ul.side_nav li a{
 	margin-bottom:1em;
 }
 ul.side_nav li a:hover{
-	background:#53bed6;
-	border:2px solid#53bed6;
+	background:#0e3808;
+	border:2px solid#0e3808;
 }
 
 
